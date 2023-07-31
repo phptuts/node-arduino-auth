@@ -27,5 +27,5 @@ https://www.elephantsql.com/
 6\. Type in this command to generate random key
 
 ```
-openssl rand -hex 32
+openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
 ```
